@@ -2,6 +2,7 @@ function getById(id){
     return document.getElementById(id);
 }
 
+
 let hotlineEl = getById("hotline");
 let hotlineNumbers = [
     {
@@ -12,6 +13,7 @@ let hotlineNumbers = [
         number: "999",
         category: "All",
     },
+
     {
         icon: "police",
         iconBg: "bg-[#dfefff]",
@@ -37,6 +39,7 @@ let hotlineNumbers = [
         number: "1994-999999",
         category: "Health",
     },
+
     {
         icon: "emergency",
         iconBg: "bg-[#ffe3e2]",
@@ -61,6 +64,7 @@ let hotlineNumbers = [
         number: "16216",
         category: "Electricity",
     },
+    
     {
         icon: "brac",
         iconBg: "bg-pink-100",
